@@ -99,8 +99,8 @@ Cool, I'll take a look. Thanks buddy
 Permalink
 [–]from jorgegil96 sent 2 years ago
 Hey, quick update. I decided to switch to Python because it's the best language to built reddit bots, which is the next step after finishing the sidebar maker.
-So here's the new link to the code, it now generates the whole sidebar, with the record and the stats automated (working on the schedule rn).
-After i finish with the schedule the next step would be making a bot that automatically updates the sidebar and creates game threads. That is done using PRAW, a Python Reddit API wrapper.
+So here's the new link to the code,  https://github.com/jorgegil96/spurs-sidebar/blob/master/sidebar.py it now generates the whole sidebar, with the record and the stats automated (working on the schedule rn).
+After i finish with the schedule the next step would be making a bot that automatically updates the sidebar and creates game threads. That is done using PRAW, a Python Reddit API wrapper.   https://praw.readthedocs.io/en/stable/
 
 I'll probably won't continue until friday, but i'll let you know.
 
