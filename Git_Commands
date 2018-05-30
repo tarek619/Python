@@ -1,0 +1,28 @@
+git init                  To create a new repository
+git clone <LINK/PATH>     To copy an existing repository
+git status                To see the status of a repository
+git log --oneline         To display the log of previous commits
+git log --stat            To display log with aditional statistics such as number of lines added/removed
+git log -p                To display the actual changes that have been made in previous commits
+git show <SHA>            To show only one commit
+
+git add <file1> <file2>   To add files to the Staging Index
+git commit                To move files from the Staging Index to the repo
+git diff                  To see changes that have been made but haven't been committed
+
+git tag -a beta           To add a tag to the most recent commit (v 1.0)
+git branch                To list all branches
+git branch <name>         To create a new branch
+git branch -d <name>      To delete a branch
+git merge <other-branch>  To merge current branch to another branch
+
+git commit --amend        To modify last commit, run this after adding files to the Standing Index
+git revert <SHA>          To reverse a previously made commit
+git reset <commit-ref>    To erase commit
+
+git remote                To manage a remote repository
+git remote add <link>     To add a connection to a new remote repository
+git remove -v             To see the details about a connection to a remote
+git push origin master    To send commits from a local repository to a remote repository
+git pull origin master    To pull commits from a remote repository to a local repository (also merges local branch with tracking branch)
+git fetch                 To simply fetch and move the tracking branch
